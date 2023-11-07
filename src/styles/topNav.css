@@ -1,0 +1,117 @@
+
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0000;
+    color: #fff;
+    height: 13vh;
+  }
+  
+  .bime-logo{
+    width: 10rem;
+    height:5rem;
+    background-image: url(../assets/bimetrans.png);
+    background-size: 53%;
+    background-repeat: no-repeat;
+  }
+
+  .dropbtn{
+    width: 5rem;
+    height:4rem;
+    background-image: url(../assets/bimetrans.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .b1{
+    margin-left: 28rem;
+  }
+
+  
+  #navButton{
+    margin-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+
+
+  .b5{
+    background-color: #07C189;
+    height: 1rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.3rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .downloadbtn{
+    cursor: pointer;
+    margin-left: 12rem;
+    margin-top: -10rem;
+    background-color: #07C189;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 0.2rem;
+  }
+  
+  .dropbtn {
+    background-color: #0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  @media (max-width: 768px) {
+    .buttons {
+      display: none;
+    }
+  }
+  
