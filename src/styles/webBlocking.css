@@ -1,0 +1,28 @@
+.outer_container {
+    position: relative;
+}
+.white-space{
+    width: 85%;
+    height: 250px;
+    position: absolute;
+    background-color: #f0f0f0;
+    margin-left: 6.5%;
+    z-index: 1;
+}
+.img_container_{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    height: 20%;
+    padding: 3.3rem;
+}
+.svg_{
+    margin-top: 22%;
+    cursor: pointer;
+    height: 170px;
+    position: relative;
+    z-index: 2;
+    margin-left: 27%;
+    border-radius: 47.6%;
+    background-color: #07C189;
+}
