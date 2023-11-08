@@ -65,16 +65,7 @@
     display: inline-block;
   }
 
-  .downloadbtn{
-    cursor: pointer;
-    margin-left: 12rem;
-    margin-top: -10rem;
-    background-color: #07C189;
-    outline: none;
-    border: none;
-    color: #fff;
-    padding: 0.2rem;
-  }
+ 
   
   .dropbtn {
     background-color: #0000;
