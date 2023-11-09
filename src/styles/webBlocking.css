@@ -2,8 +2,9 @@
     position: relative;
 }
 .white-space{
+    margin-top: 5%;
     width: 85%;
-    height: 250px;
+    height: 150px;
     position: absolute;
     background-color: #f0f0f0;
     margin-left: 6.5%;
@@ -22,7 +23,7 @@
 .svg_{
     margin-top: 22%;
     cursor: pointer;
-    height: 170px;
+    height: 120px;
     position: relative;
     z-index: 2;
     border-radius: 47.6%;
