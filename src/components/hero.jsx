@@ -9,7 +9,7 @@ const Hero = () => {
         <br />
         <br /><br />
         <h1 className="discover">
-          Discover a world of <br /> absolute control
+        <span style={{color: '#07C189'}}>Discover</span> a world of <br /> absolute control
         </h1>
         <p className="discover-ex">
           Dive into an experience that sets us apart <br />
