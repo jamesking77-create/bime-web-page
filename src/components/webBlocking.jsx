@@ -24,6 +24,7 @@ const WebBlocking = () => {
                 <p className='img_text_'>Text for Blocker</p>
             </div>
         </div>
+        <div className='white-space'></div>
     </div>
   )
 }

@@ -2,8 +2,9 @@
     position: relative;
 }
 .white-space{
+    margin-top: 5%;
     width: 85%;
-    height: 250px;
+    height: 150px;
     position: absolute;
     background-color: #f0f0f0;
     margin-left: 6.5%;
@@ -22,7 +23,7 @@
 .svg_{
     margin-top: 22%;
     cursor: pointer;
-    height: 170px;
+    height: 121px;
     position: relative;
     z-index: 2;
     border-radius: 47.6%;
@@ -30,10 +31,16 @@
     transition: transform 0.3s ease;
 }
 .img_text_ {
-    border: 3px dotted white;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid gray;
     background-color:#07C189;
     position: absolute;
-    bottom: -100px; 
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+    bottom: -120px; 
     left: 49%;
     transform: translateX(-50%);
     opacity: 0; 
