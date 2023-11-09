@@ -16,13 +16,33 @@
     height: 20%;
     padding: 3.3rem;
 }
+.img_wrapper_ {
+    position: relative;
+}
 .svg_{
     margin-top: 22%;
     cursor: pointer;
     height: 170px;
     position: relative;
     z-index: 2;
-    margin-left: 27%;
     border-radius: 47.6%;
     background-color: #07C189;
+    transition: transform 0.3s ease;
 }
+.img_text_ {
+    border: 3px dotted white;
+    background-color:#07C189;
+    position: absolute;
+    bottom: -100px; 
+    left: 49%;
+    transform: translateX(-50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+  }
+  .img_wrapper_:hover .svg_ {
+    transform: scale(1.2);
+  }
+  
+  .img_wrapper_:hover .img_text_ {
+    opacity: 1; /* Display text on hover */
+  }
