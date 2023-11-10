@@ -51,5 +51,5 @@
   }
   
   .img_wrapper_:hover .img_text_ {
-    opacity: 1; /* Display text on hover */
-  }
+    opacity: 1;
+}
