@@ -4,3 +4,11 @@
     background-color: #000000;
 
 }
+
+@media (max-width: 768px) {
+
+    .main-page{
+       overflow: hidden;
+    
+    }
+}

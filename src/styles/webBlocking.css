@@ -4,11 +4,12 @@
 .white-space{
     margin-top: 5%;
     width: 85%;
-    height: 150px;
+    height: 120px;
     position: absolute;
     background-color: #f0f0f057;
     margin-left: 6.5%;
     z-index: 1;
+    border-radius: 9px;
 }
 .img_container_{
     display: grid;
@@ -36,8 +37,7 @@
     height: 40%;
     font-weight: 800;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 3px solid gray;
-    background-color:#07C189;
+    background-color:rgba(255, 255, 255, 0.459);
     position: absolute;
     box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
     bottom: -120px; 
@@ -51,5 +51,10 @@
   }
   
   .img_wrapper_:hover .img_text_ {
-    opacity: 1; /* Display text on hover */
+    opacity: 1; 
+  }
+
+
+  @media (max-width: 768px) {
+
   }
