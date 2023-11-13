@@ -1,7 +1,65 @@
 .reviews-box{
-    background-color: rgba(255, 255, 255, 0.555);
-    height: 3rem;
+    background-color: transparent;
+    height: 8rem;
     width: 96%;
-    border: solid 2pt red;
     margin: 1rem;
+    display: flex;
+}
+
+
+.reviews{
+    height: 6rem;
+    width: 6rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+#r1{
+   
+   margin-left: 21rem;
+}
+/* reviews.css */
+
+.review-text-box {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .review-text-box p {
+    background-color:#07C189;
+    height: 5rem; 
+    width: 20rem;
+    color: #fff; 
+    padding: 15px; 
+    border-radius: 12px; 
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+
+  .review-text-box p::before {
+    content: '';
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    border-width: 0 20px 30px; 
+    border-style: solid;
+    border-color: transparent transparent #07C189 transparent;
+    transform: translateX(-50%);
+  }
+  
+
+@media (max-width: 768px) {
+    .reviews-box{
+        background-color: transparent;
+        height: 8rem;
+        width: 96%;
+        margin: 1rem;
+        display: flex;
+    }
+    
 }
