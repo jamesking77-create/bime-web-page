@@ -36,11 +36,8 @@ const TopNav = () => {
           <a href="#" id="navButton" className="b1">
             Web Blocking
           </a>
-          <a href="#" id="navButton" className="b2">
-            User Stats
-          </a>
           <a href="#" id="navButton" className="b3">
-            Bime Steps
+            Previews
           </a>
           <a href="#" id="navButton" className="b4">
             Reviews
